@@ -21,6 +21,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    //MARK: Button Pressed
+    @IBAction func watcherOneButtonPressed(_ sender: Any) {
+        //Tried To make something work here, figured I would leave it for when I refactor once I graduate.
+
+    }
+    
+    @IBAction func watcherTwoButtonPressed(_ sender: Any) {
+        //Tried To make something work here, figured I would leave it for when I refactor once I graduate.
+
+    }
+    
+    
     //MARK: UI Design
     func UIDesign() {
         generateMovieButton.layer.cornerRadius = 5

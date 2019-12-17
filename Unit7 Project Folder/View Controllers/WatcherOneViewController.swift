@@ -41,6 +41,7 @@ class WatcherOneViewController: UIViewController, UITextFieldDelegate {
         
         textFieldDelegate()
         downloadActorNames()
+        
         appendArrayOne.removeAll()
         arrayOfURLSOne.removeAll()
 

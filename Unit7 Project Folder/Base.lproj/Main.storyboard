@@ -19,17 +19,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uL-D0-FdM">
-                                <rect key="frame" x="28" y="284.5" width="124" height="98"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uL-D0-FdM">
+                                <rect key="frame" x="28" y="235.5" width="124" height="196"/>
                                 <state key="normal" image="bubble-empty"/>
                                 <connections>
+                                    <action selector="watcherOneButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UbC-dJ-0CA"/>
                                     <segue destination="s7y-ge-0yb" kind="show" id="RQp-v8-zoj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWZ-VB-BFY">
-                                <rect key="frame" x="224" y="284.5" width="124" height="98"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWZ-VB-BFY">
+                                <rect key="frame" x="224" y="235.5" width="124" height="196"/>
                                 <state key="normal" image="bubble-empty"/>
                                 <connections>
+                                    <action selector="watcherTwoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ueC-ae-8Qd"/>
                                     <segue destination="QTJ-Vy-GEQ" kind="show" id="hjO-8s-fum"/>
                                 </connections>
                             </button>
